@@ -1,0 +1,124 @@
+Lebogang Adjeinmi
+Pseudocode Task
+
+
+1.	START
+		Request input from the user and notify them to enter 0 to stop
+
+			READ users input
+
+				IF the user’s first input is 0
+
+					PRINT “No numbers entered”
+
+				ENDIF 
+					
+				IF the input number is does not equal 0
+
+					 STORE input number as the largest number 
+
+				ENDIF UNTIL input number is 0 
+
+		PRINT "The largest number entered is: " + Largest Number
+		
+	STOP
+
+
+
+2. 	START
+ 		Request the user to enter their name.
+
+			READ users input
+
+				Store the name in a variable called “first_name”
+
+		PRINT “first_name” + “Hello World”
+ 	STOP
+
+
+
+3.	START  
+
+    	SET total sum to 0  
+    	SET count to 0  
+	
+		Request user to enter a series of numbers and notify them to type “STOP” when done
+
+       			READ users input  
+
+        			ADD input to the total sum  
+
+       			 	INCREASE count by 1  
+
+    			until the input is "STOP"  
+
+    		IF the count is 0 THEN  
+
+        		PRINT "No numbers entered. The average cannot be calculated." 
+ 
+       		 ELSE  
+
+        		Calculate the total sum divided by count as the average  
+
+       			 PRINT "The arithmetic average is: " + average  
+
+    		ENDIF  
+	
+	STOP  
+			
+
+
+
+4. 	START
+
+		Grocery list “yoghurt, "bananas", “juice, "eggs", "milk", "bread"
+    		Bought items "bananas", "milk", "eggs"
+
+    			SET remaining items to an empty list  
+
+    				FOR each item in grocery list  
+
+        				IF an item is not bought  
+ 
+            					ADD item to remaining items  
+
+        				ENDIF  
+
+    				 END FOR  
+
+    		SORT remaining items in alphabetical order  
+
+    			PRINT "The remaining items to buy are: "  
+
+        	PRINT item, e.g. yoghurt, juice, bread
+  
+    	STOP   
+
+
+
+
+5.	START
+	
+		Request user to enter two numbers
+	
+			Read users input
+	
+				SET X = first number 
+
+				SET Y = second number
+	
+					S = X + Y
+			
+					A = S / 2
+			
+					P = X x Y
+	
+			PRINT “S = “ + S 
+			PRINT “A = " + A
+			PRINT “P = " + P
+
+	STOP
+
+
+
+	 
